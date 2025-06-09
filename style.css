@@ -23,19 +23,16 @@ body {
 }
 
 /* Navigation Header */
-header {
+.boxed-header {
   background-color: #2a61de;
   color: white;
-  padding: 1px 0;
-  text-align: center;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: fit-content;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px auto; /* center the header */
+  text-align: center;
+  position: relative;
   z-index: 1000;
 }
 
@@ -45,10 +42,8 @@ header {
 }
 
 .nav-container h1 {
-  margin-bottom: 6px;
   font-size: 1.6em;
-  margin-bottom: 5px;
-  color: #ffffff;
+  margin-bottom: 8px;
 }
 
 nav ul {
@@ -65,7 +60,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: 500;
   position: relative;
-  padding: 3px;
+  padding: 5px;
   transition: color 0.3s;
 }
 
