@@ -111,7 +111,7 @@ a:hover {
 .project img,
 .project-img {
   width: 100%;
-  max-width: 700px; /* increased size */
+  max-width: 1000px; /* increased size */
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
