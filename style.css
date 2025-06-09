@@ -16,7 +16,7 @@ body {
 
 /* Navigation Header */
 header {
-  background-color: #2a61de; /* custom pink background */
+  background-color: #2a61de;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -108,9 +108,10 @@ a:hover {
   padding-bottom: 20px;
 }
 
-.project img {
+.project img,
+.project-img {
   width: 100%;
-  max-width: 300px;
+  max-width: 500px; /* increased size */
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -129,7 +130,8 @@ footer {
     padding: 10px;
   }
 
-  .project img {
+  .project img,
+  .project-img {
     max-width: 100%;
   }
 
