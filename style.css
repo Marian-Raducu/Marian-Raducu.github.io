@@ -9,10 +9,10 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background: url('Images/background.jpg') no-repeat center center fixed;
+  background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #333;
-  padding: 20px;
+  padding: 120px 20px 20px 20px; /* added top padding */
 }
 
 /* Navigation Header */
@@ -22,7 +22,7 @@ header {
   padding: 20px 0;
   text-align: center;
   border-radius: 0 0 10px 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* smoother and more visible */
   position: fixed;
   top: 0;
   left: 0;
