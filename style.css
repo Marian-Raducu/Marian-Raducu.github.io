@@ -30,11 +30,16 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   max-width: 800px;
-  margin: 20px auto; /* center the header */
+  width: 90%; /* responsive */
+  margin: 0 auto;
   text-align: center;
-  position: relative;
+  position: fixed;      /* 💡 fixed to top */
+  top: 20px;            /* distance from top */
+  left: 0;
+  right: 0;
   z-index: 1000;
 }
+
 
 .nav-container {
   max-width: 800px;
