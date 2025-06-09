@@ -34,7 +34,6 @@ body {
   margin: 0 auto;
   text-align: center;
   position: fixed;      /* 💡 fixed to top */
-  top: 20px;            /* distance from top */
   left: 0;
   right: 0;
   z-index: 1000;
