@@ -33,7 +33,7 @@ body {
   width: 90%; /* responsive */
   margin: 0 auto;
   text-align: center;
-  position: fixed;      /* 💡 fixed to top */
+  position: fixed;      /* fixed to top */
   left: 0;
   right: 0;
   z-index: 1000;
