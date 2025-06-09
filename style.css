@@ -28,7 +28,7 @@ header {
   color: white;
   padding: 1px 0;
   text-align: center;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
@@ -44,7 +44,8 @@ header {
 
 .nav-container h1 {
   margin-bottom: 6px;
-  font-size: 1.8em;
+  font-size: 1.6em;
+  margin-bottom: 5px;
   color: #ffffff;
 }
 
@@ -62,7 +63,7 @@ nav ul li a {
   text-decoration: none;
   font-weight: 500;
   position: relative;
-  padding: 5px;
+  padding: 3px;
   transition: color 0.3s;
 }
 
