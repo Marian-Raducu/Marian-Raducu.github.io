@@ -33,7 +33,9 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: fit-content;
+  max-width: 800px;
+  margin: 0 auto;
   z-index: 1000;
 }
 
